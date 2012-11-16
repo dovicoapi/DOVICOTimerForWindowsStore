@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="32311C.GerardGallant.DOVICOTimer" Publisher="CN=17C8226D-EC54-463B-9969-9721583C07CB" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>DOVICO Timer</DisplayName>
+    <PublisherDisplayName>C. Gerard Gallant</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="DOVICOTimerForWindowsStore.App">
+      <VisualElements DisplayName="DOVICO Timer" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Allows the use of DOVICO Timer from within a Windows Store app. DOVICO Timer is a simple start/stop timer that works across most browsers and mobile devices. Track your time while working at your computer or on the go with your phone or tablet." ForegroundText="dark" BackgroundColor="#FFFFFF">
+        <DefaultTile ShowName="allLogos" ShortName="DOVICO Timer" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="privateNetworkClientServer" />
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
