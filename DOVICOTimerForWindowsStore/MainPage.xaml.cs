@@ -199,7 +199,7 @@ namespace DOVICOTimerForWindowsStore
             settings.HeaderText = sTitle;
 
             // Set the small logo of our app in the header section of the settings flyout
-            BitmapImage bmp = new BitmapImage(new Uri("ms-appx:///Assets/TransparentSmallLogo.png"));
+            BitmapImage bmp = new BitmapImage(new Uri("ms-appx:///Assets/SmallLogo_30x30.png"));
             settings.SmallLogoImageSource = bmp;
 
             // Intercept the setting's closed event so that we can switch back to the WebView control

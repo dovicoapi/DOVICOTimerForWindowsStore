@@ -15,6 +15,10 @@
     <PackageCertificateKeyFile>DOVICOTimerForWindowsStore_StoreKey.pfx</PackageCertificateKeyFile>
     <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
     <PackageCertificateThumbprint>38FEB78D4D7AA84D34D1896B4C682F7BEB064220</PackageCertificateThumbprint>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -127,17 +131,50 @@
     <PRIResource Include="Resources.resw" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\Logo.png" />
-    <Content Include="Assets\SmallLogo.png" />
-    <Content Include="Assets\SplashScreen.png" />
-    <Content Include="Assets\StoreLogo.png" />
-    <Content Include="Assets\TransparentSmallLogo.png" />
     <Page Include="Flyouts\PrivacyPolicyContents.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\Logo.scale-140.png" />
+    <Content Include="Assets\Logo.scale-180.png" />
+    <Content Include="Assets\Logo.scale-80.png" />
+    <Content Include="Assets\Logo_120x120.png" />
+    <Content Include="Assets\Logo_150x150.png" />
+    <Content Include="Assets\Logo_210x210.png" />
+    <Content Include="Assets\Logo_270x270.png" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SmallLogo.scale-140.png" />
+    <Content Include="Assets\SmallLogo.scale-180.png" />
+    <Content Include="Assets\SmallLogo.scale-80.png" />
+    <Content Include="Assets\SmallLogo.targetsize-16.png" />
+    <Content Include="Assets\SmallLogo.targetsize-256.png" />
+    <Content Include="Assets\SmallLogo.targetsize-32.png" />
+    <Content Include="Assets\SmallLogo.targetsize-48.png" />
+    <Content Include="Assets\SmallLogo_16x16.png" />
+    <Content Include="Assets\SmallLogo_24x24.png" />
+    <Content Include="Assets\SmallLogo_256x256.png" />
+    <Content Include="Assets\SmallLogo_30x30.png" />
+    <Content Include="Assets\SmallLogo_32x32.png" />
+    <Content Include="Assets\SmallLogo_42x42.png" />
+    <Content Include="Assets\SmallLogo_48x48.png" />
+    <Content Include="Assets\SmallLogo_54x54.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-180.png" />
+    <Content Include="Assets\SplashScreen_1116x540.png" />
+    <Content Include="Assets\SplashScreen_620x300.png" />
+    <Content Include="Assets\SplashScreen_868x420.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-140.png" />
+    <Content Include="Assets\StoreLogo.scale-180.png" />
+    <Content Include="Assets\StoreLogo_50x50.png" />
+    <Content Include="Assets\StoreLogo_70x70.png" />
+    <Content Include="Assets\StoreLogo_90x90.png" />
     <Content Include="MIT-license.txt" />
-    <None Include="Package.StoreAssociation.xml" />
+    <None Include="Package.StoreAssociation.xml">
+      <SubType>Designer</SubType>
+    </None>
     <Page Include="Flyouts\SettingsOptionsContent.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -163,6 +200,7 @@
       <HintPath>..\packages\Callisto.1.2.1\lib\winrt45\Callisto.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">
     <VisualStudioVersion>11.0</VisualStudioVersion>
   </PropertyGroup>
