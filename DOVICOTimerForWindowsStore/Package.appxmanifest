@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="32311C.GerardGallant.DOVICOTimer" Publisher="CN=17C8226D-EC54-463B-9969-9721583C07CB" Version="1.0.2.0" />
+  <Identity Name="32311C.GerardGallant.DOVICOTimer" Publisher="CN=17C8226D-EC54-463B-9969-9721583C07CB" Version="1.0.3.0" />
   <Properties>
     <DisplayName>DOVICO Timer</DisplayName>
     <PublisherDisplayName>C. Gerard Gallant</PublisherDisplayName>
